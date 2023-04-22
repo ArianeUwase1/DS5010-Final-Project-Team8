@@ -17,23 +17,23 @@ Overall Purpose: The overall purpose of the Automated Personal Budget Tracker is
 personal finance management by providing an automated tool to track income and expenses,
 generate reports, and provide insights into financial habits
 
-## How to Use
-
-###M Modules
+## Modules
 
 The package will be designed to include the following modules:
 
-* *User input module: This module will allow users to input their income and expenses
+*User input module: This module will allow users to input their income and expenses
 easily. Users will also be able to categorize their income and expenses for reporting
 purposes.
 
-* *Report generation module: This module will generate reports based on user input.
+*Report generation module: This module will generate reports based on user input.
 Reports will include summaries of income and expenses, a breakdown of spending by
 category,and a comparison of current spending habits to previous periods.
 
-* *Data visualization module: This module will provide users with visual representations of
+*Data visualization module: This module will provide users with visual representations of
 their financial data, such as charts and graphs, to help them better understand their
 spending habits.
+
+## How to Use
 
 ### Prerequisites
 
