@@ -34,26 +34,26 @@ The `Income` and `Expense` classes are used to represent income and expenses, re
 
 The `BudgetTracker` class is used to track income, expenses, and budget. It has several methods:
 
--__init__(): Initializes empty lists for incomes, expenses, categories, goals, budgets, and bill reminders.
--add_income(amount, date, category): Adds an income to the incomes list and to its respective category in the categories dictionary.
--add_expense(amount, date, category): Adds an expense to the expenses list and to its respective category in the categories dictionary. If the expense exceeds the budget for its category (if one is set), it prints an alert.
--set_budget(category, budget): Sets the budget for a specific category.
--track_budget(): Checks whether expenses exceed their respective budgets and prints an alert if they do.
--plot_expense_categories(): Creates a bar plot of total expenses by category.
--plot_income_vs_expenses(): Creates a line plot of income and expenses over time.
+** __init__(): Initializes empty lists for incomes, expenses, categories, goals, budgets, and bill reminders.
+** add_income(amount, date, category): Adds an income to the incomes list and to its respective category in the categories dictionary.
+** add_expense(amount, date, category): Adds an expense to the expenses list and to its respective category in the categories dictionary. If the expense exceeds the budget for its category (if one is set), it prints an alert.
+** set_budget(category, budget): Sets the budget for a specific category.
+** track_budget(): Checks whether expenses exceed their respective budgets and prints an alert if they do.
+** plot_expense_categories(): Creates a bar plot of total expenses by category.
+** plot_income_vs_expenses(): Creates a line plot of income and expenses over time.
 
 #### Budget
 
 The `Budget` class is used to track transactions and investments. It has several methods:
 
--__init__(name): Initializes empty lists for transactions, investments, and currencies, and sets the budget name.
--add_transaction(date, type, amount, currency): Adds a transaction to the transactions list and adds the currency to the currencies set.
--add_investment(symbol, name, quantity, purchase_price, current_price): Adds an investment to the investments list.
--get_transactions_by_type(type): Returns a list of transactions of a specific type.
--get_transactions_by_currency(currency): Returns a list of transactions in a specific currency.
--generate_tax_report(): Prints the total income, expenses, and net income, and provides a recommendation based on net income.
--generate_investment_report(): Prints the investment value, current value, and gain/loss for each investment, as well as the total investment value, current value, and overall gain/loss.
--get_available_currencies(): Returns a list of available currencies in the transactions.
+** __init__(name): Initializes empty lists for transactions, investments, and currencies, and sets the budget name.
+** add_transaction(date, type, amount, currency): Adds a transaction to the transactions list and adds the currency to the currencies set.
+** add_investment(symbol, name, quantity, purchase_price, current_price): Adds an investment to the investments list.
+** get_transactions_by_type(type): Returns a list of transactions of a specific type.
+** get_transactions_by_currency(currency): Returns a list of transactions in a specific currency.
+** generate_tax_report(): Prints the total income, expenses, and net income, and provides a recommendation based on net income.
+** generate_investment_report(): Prints the investment value, current value, and gain/loss for each investment, as well as the total investment value, current value, and overall gain/loss.
+** get_available_currencies(): Returns a list of available currencies in the transactions.
 
 ## Example
 
