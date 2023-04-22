@@ -47,9 +47,9 @@ The `BudgetTracker` class is used to track income, expenses, and budget. It has 
 The `Budget` class is used to track transactions and investments. It has several methods:
 
 --__init__(name): Initializes empty lists for transactions, investments, and currencies, and sets the budget name.
-** add_transaction(date, type, amount, currency): Adds a transaction to the transactions list and adds the currency to the currencies set.
-** add_investment(symbol, name, quantity, purchase_price, current_price): Adds an investment to the investments list.
-** get_transactions_by_type(type): Returns a list of transactions of a specific type.
+* * add_transaction(date, type, amount, currency): Adds a transaction to the transactions list and adds the currency to the currencies set.
+* * add_investment(symbol, name, quantity, purchase_price, current_price): Adds an investment to the investments list.
+* * get_transactions_by_type(type): Returns a list of transactions of a specific type.
 ** get_transactions_by_currency(currency): Returns a list of transactions in a specific currency.
 ** generate_tax_report(): Prints the total income, expenses, and net income, and provides a recommendation based on net income.
 ** generate_investment_report(): Prints the investment value, current value, and gain/loss for each investment, as well as the total investment value, current value, and overall gain/loss.
