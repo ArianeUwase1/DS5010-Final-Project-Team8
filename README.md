@@ -1,10 +1,21 @@
-# DS5010Final-Project
+# AUTOMATED PERSONAL BUDGET TRACKER 
 
 # README
 
 ## Introduction
 
-This is a Python program that helps to track income, expenses and budget.
+The Automated Personal Budget Tracker is a Python package designed to help
+individuals track their personal finances. The package will allow users to easily input their
+income and expenses and generate reports to help them understand their spending habits and
+make informed financial decisions.
+
+Use-case: The package is intended for individuals who want to manage their personal finances
+effectively. It will be particularly useful for those who find it challenging to manually track their
+income and expenses, or for those who have multiple sources of income and expenses.
+
+Overall Purpose: The overall purpose of the Automated Personal Budget Tracker is to simplify
+personal finance management by providing an automated tool to track income and expenses,
+generate reports, and provide insights into financial habits
 
 ## How to Use
 
